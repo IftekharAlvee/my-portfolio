@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from './Header';
 import Image1 from './Image1';
-import ParticleHolder from './ParticleHolder';
-import bgI from '../../images/circle-scatter-haikei.svg'
 import './Landing.css'
 
 const Landing = () => {

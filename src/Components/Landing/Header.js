@@ -1,12 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Typical from 'react-typical'
-import Hello from './Hello';
 
 
-    const nameStyle = {
-        width: "300px",
-    }
+    // const nameStyle = {
+    //     width: "300px",
+    // }
 const Header = () => {
     return (
         <div>
