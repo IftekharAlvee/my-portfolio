@@ -5,7 +5,10 @@ import {
     Route
   } from "react-router-dom";
 import About from '../About/About';
+import Blogs from '../Blogs/Blogs';
+import Contact from '../Contact/Contact';
 import Landing from '../Landing/Landing';
+import Portfolio from '../Portfolio/Portfolio';
 import Navigation from './Navigation';
 import Wave from './Wave';
 
@@ -22,6 +25,15 @@ const Home = () => {
                 </Route>
                 <Route  path="/about">
                     <About></About>
+                </Route>
+                <Route  path="/portfolio">
+                    <Portfolio></Portfolio>
+                </Route>
+                <Route  path="/blogs">
+                    <Blogs></Blogs>
+                </Route>
+                <Route  path="/contacts">
+                    <Contact></Contact>
                 </Route>
             </Switch>
             <Wave></Wave>
