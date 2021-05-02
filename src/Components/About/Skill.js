@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import img1 from '../../images/g_feature-web-development-3.svg'
+import Typical from 'react-typical'
+import Skillbar from './Skillbar'
 
 const Skill = () => {
 
@@ -15,7 +17,13 @@ const Skill = () => {
                 <div class="text-center">
                     <div className="row py-5">
                         <div className="col">
-                            <h1>Who Am I ?</h1>
+                        <Typical
+                                steps={['Who am I?', 1000,
+                                'What I am working on?', 1000
+                                ]}
+                                loop={Infinity}
+                                wrapper="h1"
+                            /> 
                             <p>I am a self taught MERN Stack web developer. I have Skills in web technology  and I developed Full-Stack websites and applications using MongoDb, Express, React.js, Node.js with Firebase Authentication. I have a passion for building user friendly responsive websites and applications.  I actively seek out new technologies and stay up-to-date on industry trends and advancements.</p>
                         </div>
                         <div className="col  d-flex justify-content-center">
@@ -26,6 +34,7 @@ const Skill = () => {
                     </div>
                 </div>
             </Container>
+            <Skillbar></Skillbar>
             </div>
     );
         
