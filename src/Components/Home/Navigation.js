@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { Button, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
@@ -22,12 +22,16 @@ const Navigation = () => {
                 <Nav.Link eventKey="link-2"><Link style={{color:"black"}} to="/portfolio" >Portfolio</Link></Nav.Link>
                 </Nav.Item>
 
-                <Nav.Item>
+                {/* <Nav.Item>
                 <Nav.Link eventKey="link-3"><Link style={{color:"black"}} to="/blogs" >Blogs</Link></Nav.Link>
-                </Nav.Item>
+                </Nav.Item> */}
 
                 <Nav.Item>
                 <Nav.Link eventKey="link-4"> <Link style={{color:"black"}} to="/contacts">Contact me</Link></Nav.Link>
+                </Nav.Item>
+
+                <Nav.Item>
+                    <Button variant="outline-info" href="https://drive.google.com/file/d/1Dqtft-K439w-M9a9hzxg2hLB49E5DinM/view?usp=sharing" target="_blank" >Resume</Button>
                 </Nav.Item>
                 
             </Nav>

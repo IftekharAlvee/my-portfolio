@@ -10,6 +10,7 @@ import Contact from '../Contact/Contact';
 import Landing from '../Landing/Landing';
 import Portfolio from '../Portfolio/Portfolio';
 import Navigation from './Navigation';
+import Social from './Social';
 import Wave from './Wave';
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
                     <Contact></Contact>
                 </Route>
             </Switch>
+            <Social></Social>
             <Wave></Wave>
         </Router>
     );
