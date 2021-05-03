@@ -8,7 +8,7 @@ const Contact = () => {
         // backgroundColor:"#293451"
     }
     return (
-        <div style={style}>
+        <div class="allBg" style={style}>
             <Container>
                 <ContactForm></ContactForm>
             </Container>
