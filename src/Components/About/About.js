@@ -3,8 +3,10 @@ import Skill from './Skill';
 
 const About = () => {
     return (
-        <div>
-            <Skill></Skill>
+        <div >
+            <div class="allBg">
+                <Skill></Skill>
+            </div>
         </div>
     );
 };

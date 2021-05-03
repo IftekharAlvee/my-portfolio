@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+	font-family: 'Kanit', sans-serif;
+}
+
+
+
+.card {
+	width:35em;
+	height:25em;
+	background-color:white;
+	overflow:hidden;
+}
+
+.card-center {
+	transform:translate(-100%, 150%);
+	transition:transform 500ms ease-in-out;
+	z-index:1;
+}
+
+.card:hover .card-center {
+	transform:translate(15%, 150%);
+	z-index:1;
+}
+
+.card-top {
+	transform:translate(15%, -650%);
+	transition:transform 500ms ease-in-out;
+	z-index:2;
+}
+
+.card:hover .card-top {
+	transform:translate(15%, 100%);
+	z-index:2;
+}
+
+.card-bottom {
+	transform:translate(15%, 650%);
+	transition:transform 500ms ease-in-out;
+	z-index:2;
+}
+
+.card:hover .card-bottom {
+	transform:translate(15%, 100%);
+	z-index:2;
+}

@@ -1,11 +1,16 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
+    const style = {
+        backgroundColor: "#dff3f5"
+        // backgroundColor:"#293451"
+    }
     return (
-        <div>
+        <div style={style}>
             <Container>
-                <h1>Contact Comming soon</h1>
+                <ContactForm></ContactForm>
             </Container>
         </div>
     );
