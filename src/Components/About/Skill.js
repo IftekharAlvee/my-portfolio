@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Image } from 'react-bootstrap';
+import { Button, Container, Image } from 'react-bootstrap';
 import img1 from '../../images/g_feature-web-development-3.svg'
 import Typical from 'react-typical'
 import Skillbar from './Skillbar'
@@ -25,6 +25,7 @@ const Skill = () => {
                                 wrapper="h1"
                             /> 
                             <p>I am a self-taught MERN Stack web developer. I have Skills in web technology and I developed Full-Stack websites and applications using MongoDB, Express, React.js, Node.js with Firebase Authentication. I have a passion for building user-friendly responsive websites and applications. I actively seek out new technologies and stay up-to-date on industry trends and advancements.</p>
+                            <Button size="lg" target="_blank" href="https://drive.google.com/file/d/1Dqtft-K439w-M9a9hzxg2hLB49E5DinM/view?usp=sharing" variant="outline-info">Resume Download</Button>
                         </div>
                         <div className="col  d-flex justify-content-center">
                             <div  style={{width:"300px"}}>
