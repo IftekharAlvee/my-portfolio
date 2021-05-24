@@ -31,7 +31,7 @@ const Navigation = () => {
                 </Nav.Item>
 
                 <Nav.Item>
-                    <Button variant="outline-info" href="https://drive.google.com/file/d/1T57VP5JoKQbOOFlArjagjvfMSQtkFX_e/view?usp=sharing" target="_blank" >Resume</Button>
+                    <Button variant="outline-info" href="https://drive.google.com/file/d/1ynApluvDCbHB6hLkDyRyxaaMtRha6LGB/view?usp=sharing" target="_blank" >Resume</Button>
                 </Nav.Item>
                 
             </Nav>
